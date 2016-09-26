@@ -14,7 +14,7 @@ if( green > red && green > blue){
   return 'green';
 }
 
-if( blue > green && blue > red){
+if( blue > green && blue > red){mango
   return 'blue';
 }
 
