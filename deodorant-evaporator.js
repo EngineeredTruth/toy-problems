@@ -1,6 +1,6 @@
 function evaporator(content, evap_per_day, threshold){
 
-thresholdAmount = content*(threshold/100);
+const thresholdAmount = content*(threshold/100);
 let n = 0;
 
 while(content > thresholdAmount){
