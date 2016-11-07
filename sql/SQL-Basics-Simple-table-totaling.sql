@@ -5,3 +5,6 @@ SELECT RANK() OVER (ORDER BY SUM(points) DESC),
 FROM people
 GROUP BY clan
 ORDER BY total_points DESC
+
+-- The COALESCE function returns the first of its arguments that is not NULLIF
+-- NULLIF function returns a null value if value1 and value 2 are equal otherwise it returns value1
